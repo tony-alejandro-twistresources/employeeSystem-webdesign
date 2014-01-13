@@ -6,7 +6,7 @@
   <updatedBy>adm</updatedBy>
   <pageMode>page</pageMode>
   <pageType>default</pageType>
-  <framework></framework>
+  <framework>none</framework>
   <styleClass></styleClass>
   <theme></theme>
   <cell>
@@ -66,6 +66,12 @@
             <left></left>
             <top></top>
             <_initialized>true</_initialized>
+            <widget>
+              <widgetClass>tooltwist.employeeSystem.widgets.BootstrapWidget</widgetClass>
+              <idWithinRootWidget>7</idWithinRootWidget>
+              <linkedWidget>employeeSystem.widgets.bootstrap</linkedWidget>
+              <elementId></elementId>
+            </widget>
           </cell>
           <cell>
             <index>0,1</index>
@@ -116,6 +122,8 @@
               <idWithinRootWidget>4</idWithinRootWidget>
               <linkedWidget>employeeSystem.widgets.employeeDetails</linkedWidget>
               <elementId></elementId>
+              <target>employeeSystem-4</target>
+              <homePage>employeeSystem-home</homePage>
             </widget>
           </cell>
           <cell>
