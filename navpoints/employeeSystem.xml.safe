@@ -1,0 +1,63 @@
+﻿<navpoint>
+  <id>employeeSystem</id>
+  <newId>0</newId>
+  <type>page</type>
+  <label>projectName</label>
+  <url></url>
+  <useSSL>N</useSSL>
+  <notes>Various navpoints expected by ToolTwist.</notes>
+  <onlyContainsAliases>N</onlyContainsAliases>
+  <navpoint>
+    <id>home</id>
+    <newId>1</newId>
+    <type>page</type>
+    <label>Home</label>
+    <url></url>
+    <useSSL>N</useSSL>
+    <notes>This navpoint acts as a virtual home, and can be pointed to any other page.</notes>
+    <pageWidget>employeeSystem.pages.employeeSystem_p_home</pageWidget>
+  </navpoint>
+  <navpoint>
+    <id>2</id>
+    <newId>2</newId>
+    <type>page</type>
+    <label>Details</label>
+    <url></url>
+    <useSSL>N</useSSL>
+    <pageWidget>employeeSystem.pages.employeeSystem_z_employeeDetails</pageWidget>
+  </navpoint>
+  <navpoint>
+    <id>3</id>
+    <newId>3</newId>
+    <type>page</type>
+    <label>Login</label>
+    <url></url>
+    <useSSL>N</useSSL>
+  </navpoint>
+  <navpoint>
+    <id>4</id>
+    <newId>4</newId>
+    <type>page</type>
+    <label>Edit Employee</label>
+    <url></url>
+    <useSSL>N</useSSL>
+    <pageWidget>employeeSystem.pages.employeeSystem_p_editEmployee</pageWidget>
+  </navpoint>
+  <navpoint>
+    <id>5</id>
+    <newId>5</newId>
+    <type>page</type>
+    <label>Edit Address</label>
+    <url></url>
+    <useSSL>N</useSSL>
+    <pageWidget>employeeSystem.pages.employeeSystem_p_editAddress</pageWidget>
+  </navpoint>
+  <navpoint>
+    <id>6</id>
+    <newId>6</newId>
+    <type>page</type>
+    <label>Edit Contact</label>
+    <url></url>
+    <useSSL>N</useSSL>
+  </navpoint>
+</navpoint>
